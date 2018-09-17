@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/p5800"
+    android:layout_height="@dimen/p8160"
+    android:background="@drawable/divider"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="@dimen/p4560"
+        android:layout_height="@dimen/p4070"
+        android:layout_marginTop="@dimen/p700"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:id="@+id/id_popup_order_image_view"
+            />
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/id_popup_order_progress_bar"/>
+
+    </FrameLayout>
+
+
+    
+    <TextView
+        android:layout_width="@dimen/p5000"
+        android:layout_height="@dimen/p600"
+        android:layout_gravity="center"
+        android:textSize="@dimen/p220"
+        android:id="@+id/id_popup_order_text_view_describe"
+        android:textColor="@color/color_back"
+        android:text="梅菜扣肉,是广东特色传统名菜,属粤菜客家菜,其中以广东梅州最具代表性."
+        />
+        
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/p400"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/p220"
+            android:textColor="@color/color_back"
+            android:text="推荐指数 : "
+            android:gravity="center"
+            />
+        <ImageView
+            android:layout_width="@dimen/p410"
+            android:layout_height="@dimen/p390"
+            android:src="@drawable/star"
+            android:scaleType="fitXY"
+            android:id="@+id/id_popup_order_image_view_star_1"
+            />
+        <ImageView
+            android:layout_width="@dimen/p410"
+            android:layout_height="@dimen/p390"
+            android:src="@drawable/star"
+            android:scaleType="fitXY"
+            android:id="@+id/id_popup_order_image_view_star_2"
+            />
+        <ImageView
+            android:layout_width="@dimen/p410"
+            android:layout_height="@dimen/p390"
+            android:src="@drawable/star"
+            android:scaleType="fitXY"
+            android:id="@+id/id_popup_order_image_view_star_3"
+            />
+        <ImageView
+            android:layout_width="@dimen/p410"
+            android:layout_height="@dimen/p390"
+            android:src="@drawable/star"
+            android:scaleType="fitXY"
+            android:id="@+id/id_popup_order_image_view_star_4"
+            />
+        <ImageView
+            android:layout_width="@dimen/p410"
+            android:layout_height="@dimen/p390"
+            android:layout_marginRight="@dimen/p300"
+            android:src="@drawable/star"
+            android:scaleType="fitXY"
+            android:id="@+id/id_popup_order_image_view_star_5"
+            />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/p700"
+        android:layout_marginTop="@dimen/p300"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="梅菜扣肉"
+            android:textSize="@dimen/p400"
+            android:textColor="@color/color_back"
+            android:id="@+id/id_popup_order_text_view_name"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="@dimen/p400"
+            android:text="人民币29.00"
+            android:textColor="@color/color_back"
+            android:id="@+id/id_popup_order_text_view_price"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/p870"
+        android:layout_marginTop="@dimen/p400"
+        android:orientation="horizontal"
+        >
+        <ImageButton
+            android:layout_width="@dimen/p1540"
+            android:layout_height="@dimen/p870"
+            android:layout_marginLeft="@dimen/p906"
+            android:background="@drawable/selector_wechat_button"
+            android:id="@+id/id_popup_order_image_button_wechat"
+            />
+        <ImageButton
+            android:layout_width="@dimen/p1540"
+            android:layout_height="@dimen/p870"
+            android:layout_marginLeft="@dimen/p906"
+            android:background="@drawable/selector_alipay_button"
+            android:id="@+id/id_popup_order_image_button_alipay"
+            />
+    </LinearLayout>
+
+</LinearLayout>

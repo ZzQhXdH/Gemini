@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="@dimen/p1500"
+        android:layout_height="@dimen/p1500"
+        app:elevation="@dimen/p200"
+        android:layout_gravity="top|right"
+        android:id="@+id/id_fragment_bar_code_action_button"
+        android:stateListAnimator="@animator/animator_button_selector"
+        app:pressedTranslationZ="20px"
+        app:backgroundTint="@color/colorStar"
+        app:rippleColor="@color/color_order_button_2"
+        app:useCompatPadding="true"
+        android:src="@drawable/action_button_src"
+        />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/id_fragment_bar_code_list_view"
+        >
+    </ListView>
+
+</FrameLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/p3970"
+    android:layout_height="@dimen/p7650"
+    android:background="@drawable/head_background">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/p2500"
+        android:orientation="horizontal"
+        >
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/p550"
+            android:text="是"
+            android:id="@+id/id_popup_heat_radio_button_ok"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="否"
+            android:id="@+id/id_popup_heat_radio_button_cancel"
+            />
+    </RadioGroup>
+    
+    <Button
+        android:layout_width="@dimen/p1770"
+        android:layout_height="@dimen/p540"
+        android:background="@drawable/ok"
+        android:layout_marginTop="@dimen/p4060"
+        android:layout_marginLeft="@dimen/p1010"
+        android:id="@+id/id_popup_heat_button_ok"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/p6500"
+        android:gravity="center"
+        android:textColor="@color/color_white"
+        android:id="@+id/id_popup_heat_text_view"
+        android:text="剩余时间: 90秒"
+        />
+
+</FrameLayout>

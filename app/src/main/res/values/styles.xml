@@ -1,0 +1,52 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="Debug" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="style_order_popup">
+        <item name="android:windowEnterAnimation">@anim/anim_order_popup_enter</item>
+        <item name="android:windowExitAnimation">@anim/anim_order_popup_exit</item>
+    </style>
+
+    <style name="style_shipment_popup">
+        <item name="android:windowEnterAnimation">@anim/anim_shipment_popup_enter</item>
+        <item name="android:windowExitAnimation">@anim/anim_shipment_popup_exit</item>
+    </style>
+
+    <style name="style_take_popup">
+        <item name="android:windowEnterAnimation">@anim/anim_take_popup_enter</item>
+        <item name="android:windowExitAnimation">@anim/anim_take_popup_exit</item>
+    </style>
+
+    <style name="style_pay_popup">
+        <item name="android:windowEnterAnimation">@anim/anim_pay_popup_enter</item>
+        <item name="android:windowExitAnimation">@anim/anim_pay_popup_exit</item>
+    </style>
+
+    <style name="style_maintain_popup">
+        <item name="android:windowEnterAnimation">@anim/anim_maintain_popup_enter</item>
+        <item name="android:windowExitAnimation">@anim/anim_maintain_popup_exit</item>
+    </style>
+
+    <style name="style_maintain_debug_popup">
+        <item name="android:windowEnterAnimation">@anim/anim_maintain_debug_popup_enter</item>
+        <item name="android:windowExitAnimation">@anim/anim_maintain_debug_popup_exit</item>
+    </style>
+
+</resources>

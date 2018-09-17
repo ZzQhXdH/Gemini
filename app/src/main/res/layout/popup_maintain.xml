@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/p5760"
+    android:layout_height="@dimen/p8320"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/color_popup_background"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/p1000"
+            android:gravity="center"
+            android:text="设备维护"
+            android:layout_marginTop="@dimen/p400"
+            android:textColor="@color/color_back"
+            android:textSize="@dimen/p700"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/p1000"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/p600"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/p600"
+                android:text="设备维护"
+                android:gravity="center"
+                android:textColor="@color/color_back"
+                android:layout_gravity="center"
+                android:textSize="@dimen/p300"
+                android:layout_marginRight="@dimen/p100"
+                />
+            <TextView
+                android:layout_width="@dimen/p2500"
+                android:layout_height="@dimen/p600"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="......"
+                android:background="#FFFFFF"
+                android:textColor="#000000"
+                android:textSize="@dimen/p300"
+                android:layout_marginRight="@dimen/p200"
+                android:id="@+id/id_popup_maintain_text_view_input"
+                />
+            <Button
+                android:layout_width="@dimen/p800"
+                android:layout_height="@dimen/p600"
+                android:layout_gravity="center"
+                android:background="@drawable/selector_maintain_button"
+                android:id="@+id/id_popup_maintain_button_enter"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="@dimen/p5760"
+        android:layout_height="@dimen/p4320"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:orientation="horizontal"
+        app:columnCount="4"
+        android:layout_row="3"
+        >
+
+        <Button
+            android:layout_width="@dimen/p1440"
+            android:layout_height="@dimen/p1440"
+            android:background="@drawable/selector_buttons"
+            android:text="7"
+            android:textColor="@color/color_order_text"
+            android:id="@+id/id_popup_maintain_btn_7"
+            android:textSize="@dimen/p800"
+            />
+
+        <Button
+            android:layout_width="@dimen/p1440"
+            android:layout_height="@dimen/p1440"
+            android:background="@drawable/selector_buttons"
+            android:text="8"
+            android:textColor="@color/color_order_text"
+            android:id="@+id/id_popup_maintain_btn_8"
+            android:textSize="@dimen/p800"
+            />
+
+        <Button
+            android:layout_width="@dimen/p1440"
+            android:layout_height="@dimen/p1440"
+            android:background="@drawable/selector_buttons"
+            android:text="9"
+            android:textColor="@color/color_order_text"
+            android:id="@+id/id_popup_maintain_btn_9"
+            android:textSize="@dimen/p800"
+            />
+
+        <Button
+            android:layout_width="@dimen/p1440"
+            android:layout_height="@dimen/p1440"
+            android:background="@drawable/selector_buttons"
+            android:text="0"
+            android:textColor="@color/color_order_text"
+            android:id="@+id/id_popup_maintain_btn_0"
+            android:textSize="@dimen/p800"
+            />
+
+        <Button
+            android:layout_width="@dimen/p1440"
+            android:layout_height="@dimen/p1440"
+            android:background="@drawable/selector_buttons"
+            android:text="4"
+            android:textColor="@color/color_order_text"
+            android:id="@+id/id_popup_maintain_btn_4"
+            android:textSize="@dimen/p800"
+            />
+
+        <Button
+            android:layout_width="@dimen/p1440"
+            android:layout_height="@dimen/p1440"
+            android:background="@drawable/selector_buttons"
+            android:text="5"
+            android:textColor="@color/color_order_text"
+            android:id="@+id/id_popup_maintain_btn_5"
+            android:textSize="@dimen/p800"
+            />
+
+        <Button
+            android:layout_width="@dimen/p1440"
+            android:layout_height="@dimen/p1440"
+            android:background="@drawable/selector_buttons"
+            android:text="6"
+            android:textColor="@color/color_order_text"
+            android:id="@+id/id_popup_maintain_btn_6"
+            android:textSize="@dimen/p800"
+            />
+        <Button
+            android:layout_width="@dimen/p1440"
+            android:layout_height="@dimen/p2880"
+            app:layout_rowSpan="2"
+            android:background="@drawable/selector_buttons2"
+            android:text="清\n除"
+            android:textColor="@color/color_white"
+            android:id="@+id/id_popup_maintain_btn_clear"
+            android:textSize="@dimen/p800"
+            />
+
+        <Button
+            android:layout_width="@dimen/p1440"
+            android:layout_height="@dimen/p1440"
+            android:background="@drawable/selector_buttons"
+            android:text="1"
+            android:textColor="@color/color_order_text"
+            android:id="@+id/id_popup_maintain_btn_1"
+            android:textSize="@dimen/p800"
+            />
+        <Button
+            android:layout_width="@dimen/p1440"
+            android:layout_height="@dimen/p1440"
+            android:background="@drawable/selector_buttons"
+            android:text="2"
+            android:textColor="@color/color_order_text"
+            android:id="@+id/id_popup_maintain_btn_2"
+            android:textSize="@dimen/p800"
+            />
+        <Button
+            android:layout_width="@dimen/p1440"
+            android:layout_height="@dimen/p1440"
+            android:background="@drawable/selector_buttons"
+            android:text="3"
+            android:textColor="@color/color_order_text"
+            android:id="@+id/id_popup_maintain_btn_3"
+            android:textSize="@dimen/p800"
+            />
+
+    </android.support.v7.widget.GridLayout>
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/p3760"
+    android:layout_height="@dimen/p7350"
+    android:background="@drawable/wechat_background"
+    android:id="@+id/id_popup_pay_frame_layout"
+    >
+
+    <ImageView
+        android:layout_width="@dimen/p1600"
+        android:layout_height="@dimen/p1600"
+        android:layout_marginTop="@dimen/p1600"
+        android:layout_marginLeft="@dimen/p1100"
+        android:scaleType="fitXY"
+        android:id="@+id/id_popup_pay_image_view_qrcode"
+        android:visibility="gone"
+        />
+
+    <ProgressBar
+        android:layout_width="@dimen/p1600"
+        android:layout_height="@dimen/p1600"
+        android:layout_marginTop="@dimen/p1600"
+        android:layout_marginLeft="@dimen/p1100"
+        android:id="@+id/id_popup_pay_progress_bar"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:layout_width="@dimen/p1600"
+        android:layout_height="@dimen/p1600"
+        android:layout_marginTop="@dimen/p1600"
+        android:layout_marginLeft="@dimen/p1100"
+        android:gravity="center"
+        android:textSize="@dimen/p300"
+        android:textColor="@color/color_back"
+        android:text="网络错误"
+        android:id="@+id/id_popup_pay_text_view"
+        android:background="@null"
+        android:visibility="visible"
+        />
+
+    <Button
+        android:layout_width="@dimen/p1600"
+        android:layout_height="@dimen/p800"
+        android:layout_marginTop="@dimen/p4500"
+        android:layout_marginLeft="@dimen/p1000"
+        android:background="@drawable/ok"
+        android:id="@+id/id_popup_pay_button_ok"
+        android:visibility="gone"
+        />
+
+</FrameLayout>

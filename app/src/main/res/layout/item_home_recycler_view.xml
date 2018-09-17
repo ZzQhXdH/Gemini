@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/p2160"
+    android:layout_height="@dimen/p1720"
+    android:id="@+id/id_item_home_frame_layout"
+    android:clickable="true"
+    android:focusable="true"
+    android:stateListAnimator="@animator/animator_button_selector"
+    >
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/id_item_home_progress_bar"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="已售空"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="@dimen/p600"
+        android:gravity="center"
+        android:background="@drawable/empty_background"
+        android:id="@+id/id_item_home_empty_text_view"
+        />
+
+</FrameLayout>

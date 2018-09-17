@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorStar">#FF9934</color>
+    <color name="color_back">#FF000000</color>
+    <color name="color_white">#FFFFFFFF</color>
+    <color name="color_shipment">#77CDAF95</color>
+    <color name="color_order_background">#1CB3B3</color>
+    <color name="color_order_button_background">#E6E3E3</color>
+    <color name="color_order_button_2">#DE5362</color>
+    <color name="color_order_text">#746E7B</color>
+    <color name="color_popup_background">#E4D3C7</color>
+</resources>

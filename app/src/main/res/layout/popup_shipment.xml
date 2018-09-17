@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/p5800"
+    android:layout_height="@dimen/p9000"
+    android:background="@color/color_shipment"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/id_popup_shipment_image_view"
+        android:layout_width="@dimen/p4560"
+        android:layout_height="@dimen/p4070"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/p200" />
+
+    <FrameLayout
+        android:layout_width="@dimen/p3000"
+        android:layout_height="@dimen/p3000"
+        android:layout_gravity="center"
+        >
+
+        <view.CountDownView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/id_popup_shipment_count_down"
+            android:visibility="gone"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:id="@+id/id_popup_shipment_image_view_state"
+            android:src="@drawable/delivery_succ"
+            />
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="正在出货，请稍 ......"
+        android:layout_marginTop="@dimen/p200"
+        android:textSize="@dimen/p400"
+        android:id="@+id/id_popup_shipment_text_view"
+        />
+
+</LinearLayout>

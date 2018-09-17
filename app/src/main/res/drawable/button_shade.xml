@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">
+        <layer-list>
+            <item android:width="@dimen/p1100"
+                android:height="@dimen/p1100">
+                <bitmap android:src="@drawable/order_button"/>
+            </item>
+        </layer-list>
+    </item>
+
+    <item android:state_pressed="true">
+        <layer-list>
+            <item android:width="@dimen/p1100"
+                android:height="@dimen/p1100">
+                <bitmap android:src="@drawable/order_button"/>
+            </item>
+
+            <item android:width="@dimen/p1100"
+                android:height="@dimen/p1100">
+                <shape android:shape="oval">
+                    <solid android:color="#990069a6"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+</selector>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menu_debug_cmd6"
+        android:title="外托盘红外检测命令"
+        app:showAsAction="withText"/>
+    <item android:id="@+id/menu_debug_cmd9"
+        android:title="条码检测命令"
+        app:showAsAction="withText"/>
+    <item app:showAsAction="withText"
+        android:id="@+id/menu_debug_cmd12"
+        android:title="状态查询命令"/>
+    <item android:title="货仓门状态查询"
+        android:id="@+id/menu_debug_cmd13"
+        app:showAsAction="withText"/>
+    <item app:showAsAction="withText"
+        android:id="@+id/menu_debug_cmd14"
+        android:title="初始化"/>
+    <item app:showAsAction="withText"
+        android:id="@+id/menu_debug_update_fault"
+        android:title="上传异常数据" />
+    <item android:id="@+id/menu_debug_quit"
+        android:title="退出整个系统"
+        app:showAsAction="withText"/>
+</menu>

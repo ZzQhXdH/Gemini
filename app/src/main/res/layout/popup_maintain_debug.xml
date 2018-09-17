@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/p4640"
+    android:layout_height="@dimen/p2520"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:columnCount="2"
+    app:rowCount="2">
+
+    <Button
+        android:background="@drawable/selectors_maintain_debug_button"
+        android:layout_width="@dimen/p2320"
+        android:layout_height="@dimen/p1260"
+        android:textSize="@dimen/p600"
+        android:textColor="#000000"
+        android:text="补货"
+        android:id="@+id/id_popup_maintain_debug_replenish_button"
+        />
+    <Button
+        android:background="@drawable/selectors_maintain_debug_button"
+        android:layout_width="@dimen/p2320"
+        android:layout_height="@dimen/p1260"
+        android:textSize="@dimen/p600"
+        android:textColor="#000000"
+        android:text="设备"
+        android:id="@+id/id_popup_maintain_debug_device_button"
+        />
+    <Button
+        android:background="@drawable/selectors_maintain_debug_button"
+        android:layout_width="@dimen/p2320"
+        android:layout_height="@dimen/p1260"
+        android:textSize="@dimen/p600"
+        android:textColor="#000000"
+        android:text="完成"
+        android:id="@+id/id_popup_maintain_debug_finish_button"
+        />
+    <Button
+        android:background="@drawable/selectors_maintain_debug_button"
+        android:layout_width="@dimen/p2320"
+        android:layout_height="@dimen/p1260"
+        android:textSize="@dimen/p600"
+        android:textColor="#000000"
+        android:text="调试"
+        android:id="@+id/id_popup_maintain_debug_debug_button"
+        />
+
+</android.support.v7.widget.GridLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_white"
+    >
+
+    <view.WaitView
+        android:layout_width="@dimen/p10800"
+        android:layout_height="@dimen/p10800"
+        android:id="@+id/id_popup_initialize_wait_view"
+        android:layout_marginTop="@dimen/p3500"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/p800"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:id="@+id/id_popup_initialize_text_view"
+        />
+
+</LinearLayout>
